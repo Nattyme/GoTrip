@@ -42,7 +42,9 @@ body {
 .header {
     position: relative;
     min-height: 940px;
+    padding-top: 44px;
     background: linear-gradient(132deg, #428E5F -17.38%, #112120 78.4%);
+    
 }
 
 .header::after {
@@ -56,3 +58,29 @@ body {
     background-image: url(./../img/header/header-bottom.svg);
     background-size: 100%;
 }
+
+.header-top {
+    margin-bottom: 86px;
+}
+
+
+.header-content {
+    max-width: 592px;
+}
+
+/* Nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 80px;
+}
+.nav__logo {
+}
+.block {
+}
+.nav__list {
+}
+.nav__login {
+}
+
