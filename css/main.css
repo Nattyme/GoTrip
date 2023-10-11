@@ -44,7 +44,12 @@ body {
     min-height: 940px;
     padding-top: 44px;
     background: linear-gradient(132deg, #428E5F -17.38%, #112120 78.4%);
+    color: #FFF;
     
+}
+
+.header a {
+    color: #FFF;
 }
 
 .header::after {
@@ -73,14 +78,31 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     column-gap: 80px;
 }
-.nav__logo {
-}
-.block {
-}
+
 .nav__list {
+    display: flex;
+    column-gap: 80px;
+    font-size: 15px;
+    font-weight: 500;
 }
+
 .nav__login {
 }
+
+/* Logo */
+
+.logo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+
+}
+
+.logo a {
+    color: inherit;
+}
+
 
