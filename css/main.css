@@ -155,15 +155,53 @@ body {
     top: 1px;
 }
 
-.header-content {
-}
+/* Headet content */
+
 .header__badge {
+    display: inline-block;
+    margin-bottom: 7px;
+    padding: 11px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.25);
 }
+
+
 .header__title {
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-weight: 400;
 }
+
+
 .header__text {
+    margin-bottom: 68px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5)
 }
+
 .header__btn {
+    display: inline-block;
+    padding: 27px 48px;
+
+    border-radius: 27px;
+    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
+
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.header__btn:hover {
+    color: rgb(245, 233, 127);
+    transition: color 0.2s ease-in;
+}
+
+.header__btn:active {
+    position: relative;
+    top: 1px;
 }
 
 
