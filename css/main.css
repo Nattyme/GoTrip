@@ -41,6 +41,30 @@ body {
     background-color: aquamarine;
 }
 
+/* Destinations */
+
+
+.destionations {
+    padding: 96px 0 100px;
+}
+
+.container-right {
+}
+
+.destinations__row {
+    display: flex;
+    column-gap: 50px;
+}
+
+.destionations__content {
+    max-width: 456px;
+}
+
+.destionations__slider {
+    width: 1110px;
+    flex-shrink: 0;
+}
+
 
 
 
