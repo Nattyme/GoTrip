@@ -67,6 +67,51 @@ body {
 }
 
 
+.destinations__title {
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.destinations__title span {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+
+.destinations__text {
+    margin-bottom: 60px;
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--secondary);
+}
+
+
+
+.btn {
+    display: inline-block;
+    padding: 27px 48px;
+
+    border-radius: 27px;
+    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
+
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+
+.btn:hover {
+    color: rgb(245, 233, 127);
+    transition: color 0.2s ease-in;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+
+
+
 
 
 
