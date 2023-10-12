@@ -44,7 +44,8 @@ body {
 /* Destinations */
 
 
-.destionations {
+.destinations {
+    overflow-x: hidden;
     padding: 96px 0 100px;
 }
 
@@ -56,11 +57,11 @@ body {
     column-gap: 50px;
 }
 
-.destionations__content {
+.destinations__content {
     max-width: 456px;
 }
 
-.destionations__slider {
+.destinations__slider {
     width: 1110px;
     flex-shrink: 0;
 }
