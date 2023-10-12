@@ -1,6 +1,7 @@
 /* Header */
 
 .header {
+    overflow: hidden;
     position: relative;
     min-height: 940px;
     padding-top: 44px;
@@ -29,7 +30,57 @@
     margin-bottom: 86px;
 }
 
+.header__row {
+    display: flex;
+
+}
+
 
 .header-content {
     max-width: 592px;
+    position: relative;
+    z-index: 1;
 }
+
+.header__img {
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.header__img img {
+    position: absolute;
+    top: -180px;
+    right: -100px;
+    max-width: unset;
+    width: 894px;
+    height: 940px;
+}
+
+/* Header content */
+
+.header__badge {
+    display: inline-block;
+    margin-bottom: 7px;
+    padding: 11px 30px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+
+.header__title {
+    margin-bottom: 30px;
+    font-size: 55px;
+    font-weight: 400;
+}
+
+
+.header__text {
+    margin-bottom: 68px;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.5)
+}
+
