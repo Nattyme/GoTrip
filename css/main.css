@@ -89,12 +89,12 @@ body {
 
 .btn {
     display: inline-block;
-    padding: 27px 48px;
+    padding: 25px 45px;
 
     border-radius: 27px;
     background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
 
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     
 }
@@ -108,8 +108,6 @@ body {
     position: relative;
     top: 1px;
 }
-
-
 
 
 
