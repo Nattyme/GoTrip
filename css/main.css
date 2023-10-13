@@ -130,6 +130,11 @@ body {
 }
 
 .slider__btn {
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  transform: translateY(-50%);
+
   display: block;
   width: 68px;
   height: 68px;
@@ -142,23 +147,13 @@ body {
 }
 
 .slider__btn--prev {
-  position: absolute;
-  z-index: 9;
   left: -27px;
-  top: 50%;
-  transform: translateY(-50%);
-
   padding-left: 26px;
   justify-content: flex-start;
 }
 
 .slider__btn--next {
-  position: absolute;
-  z-index: 9;
   right: -27px;
-  top: 50%;
-  transform: translateY(-50%);
-
   padding-right: 26px;
   justify-content: flex-end;
 }
