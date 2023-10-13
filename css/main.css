@@ -3,6 +3,7 @@
 @import "./nav.css";
 @import "./logo.css";
 @import "./btn.css";
+@import "./destinations.css";
 @import "./slider.css";
 
 /* font-family: 'Poppins', sans-serif; */
@@ -45,65 +46,4 @@ body {
   background-color: aquamarine;
 }
 
-/* Destinations */
-
-.destinations {
-  overflow-x: hidden;
-  padding: 96px 0 100px;
-}
-
-.container-right {
-}
-
-.destinations__row {
-  display: flex;
-  column-gap: 50px;
-}
-
-.destinations__content {
-  max-width: 456px;
-}
-
-.destinations__slider {
-  width: 1110px;
-  flex-shrink: 0;
-}
-
-.destinations__title {
-  font-size: 55px;
-  font-weight: 600;
-}
-
-.destinations__title span {
-  margin-bottom: 15px;
-  font-size: 30px;
-}
-
-.destinations__text {
-  margin-bottom: 60px;
-  font-size: 25px;
-  font-weight: 500;
-  color: var(--secondary);
-}
-
-.btn {
-  display: inline-block;
-  padding: 25px 45px;
-
-  border-radius: 27px;
-  background: linear-gradient(130deg, #ff7b4e 15.57%, #ff584e 95.03%);
-
-  font-size: 20px;
-  font-weight: 600;
-}
-
-.btn:hover {
-  color: rgb(245, 233, 127);
-  transition: color 0.2s ease-in;
-}
-
-.btn:active {
-  position: relative;
-  top: 1px;
-}
 
