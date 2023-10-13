@@ -128,11 +128,24 @@ body {
 }
 
 .slider__btn {
+
+  display: block;
   width: 68px;
   height: 68px;
-  border-radius: 34px;
+  border-radius: 50%;
+  
+  display: flex;
+  align-items: center;
+
   background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%), #8B8B8B;
 }
 
+.slider__btn--prev {
+  padding-left: 26px;
+  justify-content: flex-start;
+}
+
 .slider__btn--next {
+  padding-right: 26px;
+  justify-content: flex-end;
 }
