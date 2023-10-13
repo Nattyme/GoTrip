@@ -6,138 +6,133 @@
 
 /* font-family: 'Poppins', sans-serif; */
 :root {
- --container-width: 1270px;
- --container-padding: 15px;
- --secondary: rgb(15, 31, 28, 0.5);
+  --container-width: 1270px;
+  --container-padding: 15px;
+  --secondary: rgb(15, 31, 28, 0.5);
 }
 
-
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f6f6f6;
-    color: #0F1F1C;
+  font-family: "Poppins", sans-serif;
+  background-color: #f6f6f6;
+  color: #0f1f1c;
 }
 
 .none {
-    display: none !important;
+  display: none !important;
 }
 
 .container {
-    max-width: var(--container-width);
-    padding: 0 var(--container-padding);
-    margin: 0 auto;
+  max-width: var(--container-width);
+  padding: 0 var(--container-padding);
+  margin: 0 auto;
 }
 
 .container-right {
-    padding-left: calc((100% - var(--container-width)) / 2 + var(--container-padding));
+  padding-left: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
 }
 
 .container-left {
-    padding-right: calc((100% - var(--container-width)) / 2 + var(--container-padding));
+  padding-right: calc(
+    (100% - var(--container-width)) / 2 + var(--container-padding)
+  );
 }
 
 .block {
-    height: 200px;
-    background-color: aquamarine;
+  height: 200px;
+  background-color: aquamarine;
 }
 
 /* Destinations */
 
-
 .destinations {
-    overflow-x: hidden;
-    padding: 96px 0 100px;
+  overflow-x: hidden;
+  padding: 96px 0 100px;
 }
 
 .container-right {
 }
 
 .destinations__row {
-    display: flex;
-    column-gap: 50px;
+  display: flex;
+  column-gap: 50px;
 }
 
 .destinations__content {
-    max-width: 456px;
+  max-width: 456px;
 }
 
 .destinations__slider {
-    width: 1110px;
-    flex-shrink: 0;
+  width: 1110px;
+  flex-shrink: 0;
 }
 
-
 .destinations__title {
-    font-size: 55px;
-    font-weight: 600;
+  font-size: 55px;
+  font-weight: 600;
 }
 
 .destinations__title span {
-    margin-bottom: 15px;
-    font-size: 30px;
+  margin-bottom: 15px;
+  font-size: 30px;
 }
-
 
 .destinations__text {
-    margin-bottom: 60px;
-    font-size: 25px;
-    font-weight: 500;
-    color: var(--secondary);
+  margin-bottom: 60px;
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--secondary);
 }
 
-
-
 .btn {
-    display: inline-block;
-    padding: 25px 45px;
+  display: inline-block;
+  padding: 25px 45px;
 
-    border-radius: 27px;
-    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
+  border-radius: 27px;
+  background: linear-gradient(130deg, #ff7b4e 15.57%, #ff584e 95.03%);
 
-    font-size: 20px;
-    font-weight: 600;
-    
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .btn:hover {
-    color: rgb(245, 233, 127);
-    transition: color 0.2s ease-in;
+  color: rgb(245, 233, 127);
+  transition: color 0.2s ease-in;
 }
 
 .btn:active {
-    position: relative;
-    top: 1px;
+  position: relative;
+  top: 1px;
 }
 
 /* Slider */
 
 .slider {
-
 }
 
-
 .slider__item {
-    margin-top: 27px;
-    width: 335px;
-    height: 402px;
-    object-fit: cover;
-    border-radius: 35px;
+  margin-top: 27px;
+  width: 335px;
+  height: 402px;
+  object-fit: cover;
+  border-radius: 35px;
 
-    transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
 }
 
 .slider .center .slider__item {
-    margin-top: 0;
-    width: 380px;
-    height: 456px;
+  margin-top: 0;
+  width: 380px;
+  height: 456px;
 }
 
+.slider__btn {
+  width: 68px;
+  height: 68px;
+  border-radius: 34px;
+  background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%), #8B8B8B;
+}
 
-
-
-
-
-
-
-
-
+.slider__btn--next {
+}
