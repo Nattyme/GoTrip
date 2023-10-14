@@ -23,8 +23,49 @@
     font-weight: 600;
 }
 
+/* Subscribe-form */
 
 .subscribe-form {
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
     padding: 12px 15px 12px 46px;
     background-color: #fff;
+    border-radius: 35px;
 }
+
+
+.subscribe-form__input {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.subscribe-form__input::placeholder {
+    color: var(--secondary);
+}
+
+
+.subscribe-form-btn {
+    display: inline-block;
+    padding: 34px 86px;
+
+    border-radius: 35px;
+    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
+
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    
+}
+
+.subscribe-form-btn:hover {
+    color: rgb(245, 233, 127);
+    transition: color 0.2s ease-in;
+}
+
+.subscribe-form-btn:active {
+    position: relative;
+    top: 1px;
+}
+
+
