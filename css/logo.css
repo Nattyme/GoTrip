@@ -10,3 +10,7 @@
 .logo a {
     color: inherit;
 }
+
+.logo--footer {
+    background-color: #FF7C4E;
+}

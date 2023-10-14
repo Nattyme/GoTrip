@@ -34,6 +34,13 @@
 
 }
 
+
+.nav__list.nav__list--footer a.active::after,
+.nav__list.nav__list--footer a:hover::after {
+    display: none;
+}
+
+
 .nav__login {
     display: flex;
     column-gap: 25px;
@@ -41,3 +48,4 @@
     font-style: 15px;
     font-weight: 500;
 }
+
