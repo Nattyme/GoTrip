@@ -39,24 +39,5 @@
     color: var(--secondary);
   }
   
-  .btn {
-    display: inline-block;
-    padding: 25px 45px;
-  
-    border-radius: 27px;
-    background: linear-gradient(130deg, #ff7b4e 15.57%, #ff584e 95.03%);
-  
-    font-size: 20px;
-    font-weight: 600;
-  }
-  
-  .btn:hover {
-    color: rgb(245, 233, 127);
-    transition: color 0.2s ease-in;
-  }
-  
-  .btn:active {
-    position: relative;
-    top: 1px;
-  }
+
   

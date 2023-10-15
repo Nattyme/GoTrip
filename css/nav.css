@@ -31,13 +31,17 @@
     bottom: -6px;
     background-color: #C4C4C4;
     border-radius: 50px;
-
 }
 
 
 .nav__list.nav__list--footer a.active::after,
 .nav__list.nav__list--footer a:hover::after {
     display: none;
+}
+
+.nav__list.nav__list--footer a.active::after,
+.nav__list.nav__list--footer a:hover::after {
+    color: var(--orange);
 }
 
 

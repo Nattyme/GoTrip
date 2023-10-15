@@ -1,48 +1,89 @@
 /* Button */
-
 .btn {
     display: inline-block;
-    padding: 13px 44px;
+    background: linear-gradient(130deg, #ff7b4e 15.57%, #ff584e 95.03%);
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 27px;
 
+    color: #fff !important;
+  }
+  
+  .btn:hover {
+    color: rgb(245, 233, 127) !important;
+    transition: color 0.2s ease-in;
+  }
+  
+  .btn:active {
+    position: relative;
+    top: 1px;
+  }
+
+
+.btn--nav {
+    padding: 13px 44px;
     font-style: 15px;
     font-weight: 500;
-    color: #fff;
-
     border-radius: 100px;
-    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%), #FFF;
-
 }
 
-.btn:hover {
-    color: rgb(245, 233, 127);
-    transition: color 0.2s ease-in;
-}
-
-.btn:active {
-    position: relative;
-    top: 1px;
-}
-
-.header__btn {
-    display: inline-block;
+.btn--header {
     padding: 27px 48px;
+    font-size: 25px; 
+}
 
-    border-radius: 27px;
-    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
+.btn--destinations {
+    padding: 25px 45px;
+}
 
+.btn--cta {
+    padding: 25px 55px;
+}
+
+.btn--subscribe {
+    padding: 34px 86px;
+    border-radius: 35px;
     font-size: 25px;
-    font-weight: 600;
+}
+
+.btn--login {
+  padding: 13px 44px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 100px;
+  background : var(--orange);
+}
+
+
+
+.slider__btn {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    transform: translateY(-50%);
+  
+    display: block;
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
     
-}
+    display: flex;
+    align-items: center;
+  
+    background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
+  }
+  
+  .slider__btn--prev {
+    left: -27px;
+    padding-left: 26px;
+    justify-content: flex-start;
+  }
+  
+  .slider__btn--next {
+    right: -27px;
+    padding-right: 26px;
+    justify-content: flex-end;
+  }
 
-.header__btn:hover {
-    color: rgb(245, 233, 127);
-    transition: color 0.2s ease-in;
-}
-
-.header__btn:active {
-    position: relative;
-    top: 1px;
-}
 
 

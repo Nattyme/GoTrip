@@ -8,9 +8,9 @@
 }
 
 .logo a {
-    color: inherit;
+    color: inherit !important;
 }
 
 .logo--footer {
-    background-color: #FF7C4E;
+    color: var(--orange);
 }
