@@ -53,11 +53,6 @@
     background: #FF794E;
 }
 
-
-.review__client-desc {
-}
-
-
 .review__client-desc-name {
     margin-bottom: 10px;
     font-size: 33px;
@@ -68,7 +63,7 @@
 .review__client-desc-country {
     font-size: 25px;
     font-weight: 400;
-    color: var(--secondary);
+    color: $secondary;
 }
 
 
@@ -76,9 +71,5 @@
     margin-bottom: 30px;
     font-size: 22px;
     font-weight: 500;
-    color: var(--secondary);
-}
-
-
-.customers__rating {
+    color: $secondary;
 }

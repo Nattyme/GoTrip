@@ -1,0 +1,35 @@
+body {
+    font-family: $font-main;
+    background-color: #f6f6f6;
+    color: #0f1f1c;
+  }
+  
+  .none {
+    display: none !important;
+  }
+  
+  .container {
+    max-width: $container-width;
+    padding: 0 $container-padding;
+    margin: 0 auto;
+  }
+  
+  .container-right {
+    padding-left: calc(
+      (100% - $container-width) / 2 + $container-padding
+    );
+  }
+  
+  .container-left {
+    padding-right: calc(
+      (100% - $container-width) / 2 + $container-padding
+    );
+  }
+  
+  .block {
+    height: 200px;
+    background-color: aquamarine;
+  }
+  
+  
+  

@@ -6,12 +6,12 @@
     min-height: 940px;
     padding-top: 44px;
     background: linear-gradient(132deg, #428E5F -17.38%, #112120 78.4%);
-    color: #FFF;
+    color: $white;
     
 }
 
 .header a {
-    color: #FFF;
+    color: $white;
 }
 
 .header::after {

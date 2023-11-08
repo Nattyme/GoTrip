@@ -41,7 +41,7 @@
 
 .nav__list.nav__list--footer a.active::after,
 .nav__list.nav__list--footer a:hover::after {
-    color: var(--orange);
+    color: $orange;
 }
 
 

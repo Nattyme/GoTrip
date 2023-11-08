@@ -5,9 +5,6 @@
     padding: 96px 0 100px;
   }
   
-  .container-right {
-  }
-  
   .destinations__row {
     display: flex;
     column-gap: 50px;
@@ -36,8 +33,12 @@
     margin-bottom: 60px;
     font-size: 25px;
     font-weight: 500;
-    color: var(--secondary);
+    color: $secondary;
   }
   
+  .photo {
+    width: 360px;
+    height: 500px;
+  }
 
   

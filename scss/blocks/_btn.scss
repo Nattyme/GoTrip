@@ -6,11 +6,11 @@
     font-weight: 600;
     border-radius: 27px;
 
-    color: #fff !important;
+    color: $white !important;
   }
   
   .btn:hover {
-    color: rgb(245, 233, 127) !important;
+    color: $btn-hover !important;
     transition: color 0.2s ease-in;
   }
   
@@ -51,7 +51,7 @@
   font-size: 15px;
   font-weight: 500;
   border-radius: 100px;
-  background : var(--orange);
+  background : $orange;
 }
 
 
