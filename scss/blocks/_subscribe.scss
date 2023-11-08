@@ -32,10 +32,10 @@
 .subscribe-form__input {
     font-size: 24px;
     font-weight: 500;
-}
 
-.subscribe-form__input::placeholder {
-    color: $secondary;
+    &::placeholder {
+        color: $secondary;
+    }
 }
 
 

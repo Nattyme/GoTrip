@@ -16,6 +16,7 @@
 
 .nav__list a {
     position: relative;
+
 }
 
 .nav__list a.active::after,
@@ -37,13 +38,8 @@
 .nav__list.nav__list--footer a.active::after,
 .nav__list.nav__list--footer a:hover::after {
     display: none;
-}
-
-.nav__list.nav__list--footer a.active::after,
-.nav__list.nav__list--footer a:hover::after {
     color: $orange;
 }
-
 
 .nav__login {
     display: flex;

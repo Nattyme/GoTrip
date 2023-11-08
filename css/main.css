@@ -111,11 +111,6 @@ body {
   padding-right: calc((100% - 1270px) / 2 + 15px);
 }
 
-.block {
-  height: 200px;
-  background-color: aquamarine;
-}
-
 /* Header */
 .header {
   overflow: hidden;
@@ -232,10 +227,6 @@ body {
 .nav__list.nav__list--footer a.active::after,
 .nav__list.nav__list--footer a:hover::after {
   display: none;
-}
-
-.nav__list.nav__list--footer a.active::after,
-.nav__list.nav__list--footer a:hover::after {
   color: #FF7C4E;
 }
 
@@ -254,13 +245,12 @@ body {
   font-weight: 700;
   color: #fff;
 }
+.logo--footer {
+  color: #FF7C4E;
+}
 
 .logo a {
   color: inherit !important;
-}
-
-.logo--footer {
-  color: #FF7C4E;
 }
 
 /* Button */
@@ -272,43 +262,35 @@ body {
   border-radius: 27px;
   color: #fff !important;
 }
-
 .btn:hover {
   color: rgb(245, 233, 127) !important;
   transition: color 0.2s ease-in;
 }
-
 .btn:active {
   position: relative;
   top: 1px;
 }
-
 .btn--nav {
   padding: 13px 44px;
   font-style: 15px;
   font-weight: 500;
   border-radius: 100px;
 }
-
 .btn--header {
   padding: 27px 48px;
   font-size: 25px;
 }
-
 .btn--destinations {
   padding: 25px 45px;
 }
-
 .btn--cta {
   padding: 25px 55px;
 }
-
 .btn--subscribe {
   padding: 34px 86px;
   border-radius: 35px;
   font-size: 25px;
 }
-
 .btn--login {
   padding: 13px 44px;
   font-size: 15px;
@@ -330,13 +312,11 @@ body {
   align-items: center;
   background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
 }
-
 .slider__btn--prev {
   left: -27px;
   padding-left: 26px;
   justify-content: flex-start;
 }
-
 .slider__btn--next {
   right: -27px;
   padding-right: 26px;
@@ -491,21 +471,17 @@ body {
   background-color: #fff;
   border-radius: 60px;
 }
-
-.cta__plate::before,
-.cta__plate::after {
+.cta__plate::before, .cta__plate::after {
   content: "";
   position: absolute;
   width: 63px;
   height: 83px;
 }
-
 .cta__plate::before {
   top: 74px;
   right: 80px;
   background-image: url(./../img/cta/cta-el-01.svg);
 }
-
 .cta__plate::after {
   bottom: 56px;
   left: 74px;
@@ -558,11 +534,9 @@ body {
   font-size: 24px;
   font-weight: 500;
 }
-
 .subscribe-form__input::-moz-placeholder {
   color: rgba(15, 31, 28, 0.5);
 }
-
 .subscribe-form__input::placeholder {
   color: rgba(15, 31, 28, 0.5);
 }

@@ -7,53 +7,51 @@
     border-radius: 27px;
 
     color: $white !important;
+
+    &:hover {
+      color: $btn-hover !important;
+      transition: color 0.2s ease-in;
+    }
+
+    &:active {
+      position: relative;
+      top: 1px;
+    }
+
+    &--nav {
+      padding: 13px 44px;
+      font-style: 15px;
+      font-weight: 500;
+      border-radius: 100px;
+    }
+
+    &--header {
+      padding: 27px 48px;
+      font-size: 25px; 
+    }
+
+    &--destinations {
+      padding: 25px 45px;
+    }
+
+    &--cta {
+      padding: 25px 55px;
+    }
+
+    &--subscribe {
+      padding: 34px 86px;
+      border-radius: 35px;
+      font-size: 25px;
+    }
+
+    &--login {
+      padding: 13px 44px;
+      font-size: 15px;
+      font-weight: 500;
+      border-radius: 100px;
+      background : $orange;
+    }
   }
-  
-  .btn:hover {
-    color: $btn-hover !important;
-    transition: color 0.2s ease-in;
-  }
-  
-  .btn:active {
-    position: relative;
-    top: 1px;
-  }
-
-
-.btn--nav {
-    padding: 13px 44px;
-    font-style: 15px;
-    font-weight: 500;
-    border-radius: 100px;
-}
-
-.btn--header {
-    padding: 27px 48px;
-    font-size: 25px; 
-}
-
-.btn--destinations {
-    padding: 25px 45px;
-}
-
-.btn--cta {
-    padding: 25px 55px;
-}
-
-.btn--subscribe {
-    padding: 34px 86px;
-    border-radius: 35px;
-    font-size: 25px;
-}
-
-.btn--login {
-  padding: 13px 44px;
-  font-size: 15px;
-  font-weight: 500;
-  border-radius: 100px;
-  background : $orange;
-}
-
 
 
 .slider__btn {
@@ -71,19 +69,19 @@
     align-items: center;
   
     background: linear-gradient(130deg, #FF7B4E 15.57%, #FF584E 95.03%);
-  }
-  
-  .slider__btn--prev {
-    left: -27px;
-    padding-left: 26px;
-    justify-content: flex-start;
-  }
-  
-  .slider__btn--next {
-    right: -27px;
-    padding-right: 26px;
-    justify-content: flex-end;
-  }
 
+    &--prev {
+      left: -27px;
+      padding-left: 26px;
+      justify-content: flex-start;
+    }
+
+    &--next {
+      right: -27px;
+      padding-right: 26px;
+      justify-content: flex-end;
+    }
+  }
+ 
 
 

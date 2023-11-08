@@ -1,7 +1,7 @@
 body {
     font-family: $font-main;
-    background-color: #f6f6f6;
-    color: #0f1f1c;
+    background-color: $bg-color;
+    color: $text;
   }
   
   .none {
@@ -25,11 +25,5 @@ body {
       (100% - $container-width) / 2 + $container-padding
     );
   }
-  
-  .block {
-    height: 200px;
-    background-color: aquamarine;
-  }
-  
   
   

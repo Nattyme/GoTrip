@@ -5,12 +5,11 @@
     font-weight: 700;
     color: $white;
 
+    &--footer {
+        color: $orange;
+    }
 }
 
 .logo a {
     color: inherit !important;
-}
-
-.logo--footer {
-    color: $orange;
 }
